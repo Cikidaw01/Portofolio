@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    padding-top: 56px;
+}
+.bg-maroon {
+    background-color: #095a9c;
+}
+section#about, section#blog {
+    padding: 40px;
+    background-color: rgb(177, 6, 6);
+    color: #fff;
+}
+.title {
+    text-align: center;
+    color: #51b0e7;
+    margin-bottom: 40px;
+}
+.subtitle {
+    text-align: center;
+    color: #BAA100;
+    font-family: 'Dancing Script', cursive;
+}
+section#about p {
+    text-align: justify;
+}
+.navbar-brand {
+    font-family: 'Dancing Script', cursive;
+}
+section#Sertifikat {
+    background-color: #72089c;
+    padding: 40px;
+}
+section#blog {
+    color: rgb(148, 13, 137);
+    background-color: #e70e94;
+}
+section#team {
+    color: rgb(8, 4, 7);
+    background-color: #01a738;
+}
+section#contact {
+    text-align: center;
+    
+   background-color: aqua;
+}
+.portfolio-image {
+    width: 100%;
+}
+.card-center {
+    display: flex;
+    justify-content: center;
+}
+.navbar-collapse {
+    justify-content: end;
+}
+.navbar {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
